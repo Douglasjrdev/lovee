@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE U</title>
+    <style>
+        @font-face {
+            font-family:'love' ;
+            src: url('Feeling\ Lovely.ttf') format('truetype');
+        }
+        #box{
+            margin: 10% auto;
+            text-align: center;
+        }
+        #love{
+            margin: auto;
+            display: none;
+            transition: ease-out;
+            background-color: crimson;
+            height: 400px;
+            width: 300px;
+            border-radius: 10px;
+            font-family: love;
+            font-size: 1.6em;
+            font-weight: bold;
+            letter-spacing: 3px;
+            background: red url('lovep.png') center no-repeat;
+            transition-property: height, width,hover;
+            transition-duration: 1s;
+            transition-timing-function:ease-in-out;
+        }
+        #box:hover #love{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>--Clique Aqui--</h1>
+        <div id="love">EU TE AMO</div>
+    </div>
+    
+</body>
+</html>
